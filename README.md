@@ -8,7 +8,7 @@ A simple python lib for get info about crypto-moneys, using the `https://coincap
 return the more expensive crypto-moneys, in order
 
 ````python
-from crypto-coins import get_top_list
+from cryppy_coins import get_top_list
 
 print(get_top_list())
 
@@ -29,7 +29,7 @@ ________________________________________________________________________________
 return the money who has the rank number (ex : bitcoin = 1)
 
 ````python
-from crypto-coins import get_money_by_rank
+from cryppy_coins import get_money_by_rank
 
 print(get_money_by_rank(3))
 ````
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 return the rank of a money
 
 ```python
-from crypto-coins import get_rank_by_money
+from cryppy_coins import get_rank_by_money
 
 print(get_rank_by_money('stellar'))
 
@@ -63,7 +63,7 @@ ________________________________________________________________________________
 return the info of a money
 
 ```python
-from crypto-coins import get_rank_by_money
+from cryppy_coins import get_rank_by_money
 
 print(get_money_info(money_name='qtum'))
 
@@ -81,7 +81,7 @@ ________________________________________________________________________________
 return the history of the money, with interval (m1, m5, m15, m30 / h1, h2, h6, h12 / d1 ; m = month, h = hour, d = day)
 
 ````python
-from crypto-coins import get_history
+from cryppy_coins import get_history
 
 print(get_history('solana', 'd1'))
 
@@ -95,7 +95,7 @@ ________________________________________________________________________________
 return last transactions of a money
 
 ````python
-from crypto-coins import get_markets
+from cryppy_coins import get_markets
 
 print(get_markets('bitcoin'))
 
