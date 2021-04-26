@@ -52,3 +52,18 @@ result :
 ````python
 >> 16
 ````
+`get_money_info(money_name='bitcoin')`:
+return the info of a money
+
+```python
+from crypto-coins import get_rank_by_money
+
+print(get_money_info(money_name='qtum'))
+
+```
+
+result :
+
+````python
+>> {'data': {'id': 'qtum', 'rank': '61', 'symbol': 'QTUM', 'name': 'Qtum', 'supply': '98315664.7260568000000000', 'maxSupply': '107822406.0000000000000000', 'marketCapUsd': '1310840549.9845289385242708', 'volumeUsd24Hr': '207679800.6994329166665946', 'priceUsd': '13.3329775436804244', 'changePercent24Hr': '8.2445673627018140', 'vwap24Hr': '12.6877319745330286', 'explorer': 'https://qtum.info/'}, 'timestamp': 1619433969660}
+````
